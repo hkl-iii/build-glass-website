@@ -38,6 +38,8 @@ position: absolute;
 border-radius: 50%;
 }
 
+p{color: red; /* height & weight MUST be the same in order for border-radius to work by turning shape into a circle*/}
+
 .circle1 {
     top: 5%;
     right: 15%;
