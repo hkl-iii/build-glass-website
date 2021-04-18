@@ -21,6 +21,7 @@ main {
      rgba(255, 255, 255, 0.3)
  );
   border-radius: 2rem;
+  z-index: 3;
 }
 
 .circle1,
@@ -38,6 +39,7 @@ position: absolute;
 .circle1 {
     top: 5%;
     right: 15%;
+    background-color: red;
 }
 
 .circle2 {
