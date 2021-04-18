@@ -22,24 +22,25 @@ main {
  );
   border-radius: 2rem;
   z-index: 3;
+  backdrop-filter: blur(2rem);
 }
 
 .circle1,
 .circle2 {
     background: white;
     background: linear-gradient(to right bottom,
-    rgba(255, 255, 255, 0.9), 
-    rgba(255, 255, 255, 0.1)
+    rgba(255, 255, 255, 0.8), 
+    rgba(255, 255, 255, 0.3)
 );
 height: 20rem;
 width: 20rem;
 position: absolute;
+border-radius: 50%;
 }
 
 .circle1 {
     top: 5%;
     right: 15%;
-    background-color: red;
 }
 
 .circle2 {
