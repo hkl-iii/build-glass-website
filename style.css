@@ -50,3 +50,9 @@ p{color: red; /* height & weight MUST be the same in order for border-radius to 
     left: 10%;
 }
 
+.container {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
